@@ -8,7 +8,7 @@ pm2 stop example_app
 cd SimpleApplication/
 #install application dependancies
 npm install
-echo $PRIVATE_KEY > privatekey.pem
+echo $PRIVATE_KEY > privatekey.cer
 echo $SERVER > server.crt
 #start the application with the process name example_app using pm2
 pm2 start .bin/www --name example_app
