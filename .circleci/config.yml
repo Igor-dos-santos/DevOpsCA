@@ -19,7 +19,7 @@ workflows:
 
 jobs:
   build:
-    working_directory: ~/SimpleApplication
+    working_directory: ~/SimpleApplication/DevOpsCA
     docker:
       - image: circleci/node:latest
     steps:
