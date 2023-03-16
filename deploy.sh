@@ -5,7 +5,7 @@ sudo npm install -g pm2
 # stop any instances of application running currently
 pm2 stop example_app
 # change directory into folder where application is downloaded
-cd SimpleApplication
+cd DevOpsCA
 #install application dependancies
 npm install
 echo $PRIVATE_KEY > privatekey.pem
